@@ -83,7 +83,7 @@ This project uses only Go standard library packages:
 ## Example API Response
 
 The application parses DNS responses in this format:
-```bash
+```
 {
   "Status": 0,
   "TC": false,
