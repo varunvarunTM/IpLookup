@@ -23,39 +23,37 @@ text
 ## Installation
 
 1. Clone this repository:
+```bash
 git clone https://github.com/yourusername/IpLookup.git
 cd IpLookup
-
-text
+```
 
 2. Build the application:
+```bash
 go build -o iplookup
-
-text
+```
 
 ## Usage
 
 ### Interactive Mode
 
 Run the application and follow the prompts:
-
+```bash
 ./iplookup
-
-text
+```
 
 Example session:
+```bash
 Enter domain name (e.g., boot.dev): google.com
 The IP address for google.com is: 142.250.191.14
-
-text
+```
 
 ### Direct Execution
 
 You can also run it directly with Go:
-
+```bash
 go run .
-
-text
+```
 
 ## How It Works
 
@@ -85,6 +83,7 @@ This project uses only Go standard library packages:
 ## Example API Response
 
 The application parses DNS responses in this format:
+```bash
 {
 "Status": 0,
 "TC": false,
@@ -107,8 +106,7 @@ The application parses DNS responses in this format:
 }
 ]
 }
-
-text
+```
 
 ## Error Handling
 
