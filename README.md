@@ -11,13 +11,13 @@ A simple command-line tool written in Go that performs DNS lookups using DNS-ove
 - 🎯 Simple A record resolution
 
 ## Project Structure
-
+```
 IpLookup/
 ├── go.mod # Go module definition
 ├── dns.go # DNS response type definitions
 ├── http.go # DoH client implementation
 └── main.go # CLI interface
-
+```
 text
 
 ## Installation
