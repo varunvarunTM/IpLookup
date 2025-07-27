@@ -85,26 +85,26 @@ This project uses only Go standard library packages:
 The application parses DNS responses in this format:
 ```bash
 {
-"Status": 0,
-"TC": false,
-"RD": true,
-"RA": true,
-"AD": false,
-"CD": false,
-"Question": [
-{
-"name": "example.com",
-"type": 1
-}
-],
-"Answer": [
-{
-"name": "example.com",
-"type": 1,
-"TTL": 300,
-"data": "93.184.216.34"
-}
-]
+  "Status": 0,
+  "TC": false,
+  "RD": true,  
+  "RA": true,
+  "AD": false,
+  "CD": false,
+  "Question": [
+    {
+      "name": "example.com",
+      "type": 1
+    }
+  ],
+  "Answer": [
+    {
+      "name": "example.com",
+      "type": 1,
+      "TTL": 300,
+      "data": "93.184.216.34"
+    }
+  ]
 }
 ```
 
